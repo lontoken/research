@@ -21,5 +21,25 @@
     <ClInclude Include="StockDataSource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="NumberTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StockTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Stock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StockTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

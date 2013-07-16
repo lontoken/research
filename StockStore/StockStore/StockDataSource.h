@@ -5,8 +5,6 @@
 #include <sstream>
 #include <list>
 
-#include "Stock.h"
-
 using namespace std;
 
 class StockDataSource{

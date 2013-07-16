@@ -1,11 +1,23 @@
 #ifndef _STOCK_H
 #define _STOCK_H
 
+#pragma once
+
+#include <sstream>
+
+using namespace std;
+
 class Stock{
 public:
     Stock(){};
-private:
 
-}
+    void SetName(string &code);
+    void SetCode(string &code);
+    void SetCode(int code);
+private:
+    string name;
+    string code;
+    int code_i;
+};
 
 #endif
