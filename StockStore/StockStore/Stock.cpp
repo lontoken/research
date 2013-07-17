@@ -22,3 +22,13 @@ void Stock::SetName(string &name){
 
     return;
 }
+
+
+string& Stock::GetCode(){
+    return this->code;
+}
+    
+
+int Stock::GetCodeI(){
+    return this->code_i;
+}

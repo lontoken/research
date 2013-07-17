@@ -1,16 +1,11 @@
-﻿生成启动时间为 2013/7/17 0:45:45。
+﻿生成启动时间为 2013/7/18 0:34:04。
      1>项目“E:\WorkStation\research\StockStore\StockStore\StockStore.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\StockStore.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         E:\ProgramFiles\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp NumberTree.cpp StockTree.cpp
+         E:\ProgramFiles\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-         正在生成代码...
-         正在编译...
-         NumberTree.cpp
-         正在生成代码...
-         正在跳过...(未检测到相关更改)
-         StockTree.cpp
+     1>e:\workstation\research\stockstore\stockstore\main.cpp(109): warning C4101: “laster”: 未引用的局部变量
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
@@ -32,4 +27,4 @@
 
 生成成功。
 
-已用时间 00:00:00.58
+已用时间 00:00:00.86

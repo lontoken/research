@@ -14,6 +14,8 @@ public:
     void SetName(string &code);
     void SetCode(string &code);
     void SetCode(int code);
+    string& GetCode();
+    int GetCodeI();
 private:
     string name;
     string code;
