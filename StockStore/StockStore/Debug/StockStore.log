@@ -1,30 +1,41 @@
-﻿生成启动时间为 2013/7/18 0:34:04。
-     1>项目“E:\WorkStation\research\StockStore\StockStore\StockStore.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“Debug\StockStore.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+﻿生成启动时间为 2013/7/18 22:45:00。
+     1>项目“E:\WorkStation\research\StockStore\StockStore\StockStore.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\StockStore.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\StockStore.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         E:\ProgramFiles\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         E:\ProgramFiles\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\WorkStation\research\StockStore\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp NumberTree.cpp Stock.cpp StockTree.cpp
+         StockTree.cpp
+         Stock.cpp
+         NumberTree.cpp
          Main.cpp
-     1>e:\workstation\research\stockstore\stockstore\main.cpp(109): warning C4101: “laster”: 未引用的局部变量
+     1>e:\workstation\research\stockstore\stockstore\main.cpp(113): warning C4101: “laster”: 未引用的局部变量
+         正在生成代码...
        ManifestResourceCompile:
-         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\StockStore.exe.embed.manifest.res" Debug\StockStore_manifest.rc 
        Link:
-         E:\ProgramFiles\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkStation\research\StockStore\Debug\StockStore.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\StockStore.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\WorkStation\research\StockStore\Debug\StockStore.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkStation\research\StockStore\Debug\StockStore.lib" /MACHINE:X86 Debug\StockStore.exe.embed.manifest.res
+         E:\ProgramFiles\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkStation\research\StockStore\Debug\StockStore.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\WorkStation\research\StockStore\lib lua5.1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\StockStore.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\WorkStation\research\StockStore\Debug\StockStore.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkStation\research\StockStore\Debug\StockStore.lib" /MACHINE:X86 Debug\StockStore.exe.embed.manifest.res
          Debug\Main.obj
          Debug\NumberTree.obj
          Debug\Stock.obj
          Debug\StockTree.obj
        Manifest:
+         正在删除文件“Debug\StockStore.exe.embed.manifest”。
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\StockStore.exe.embed.manifest" /manifest Debug\StockStore.exe.intermediate.manifest
-         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\StockStore.exe.embed.manifest.res" Debug\StockStore_manifest.rc 
        LinkEmbedManifest:
-         所有输出均为最新。
+         E:\ProgramFiles\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkStation\research\StockStore\Debug\StockStore.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\WorkStation\research\StockStore\lib lua5.1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\StockStore.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\WorkStation\research\StockStore\Debug\StockStore.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkStation\research\StockStore\Debug\StockStore.lib" /MACHINE:X86 Debug\StockStore.exe.embed.manifest.res
+         Debug\Main.obj
+         Debug\NumberTree.obj
+         Debug\Stock.obj
+         Debug\StockTree.obj
          StockStore.vcxproj -> E:\WorkStation\research\StockStore\Debug\StockStore.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\StockStore.unsuccessfulbuild”。
          正在对“Debug\StockStore.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\WorkStation\research\StockStore\StockStore\StockStore.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“E:\WorkStation\research\StockStore\StockStore\StockStore.vcxproj”(rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.86
+已用时间 00:00:01.79

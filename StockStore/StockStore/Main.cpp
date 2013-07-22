@@ -59,6 +59,10 @@ void testAdd(StockTree *pStkTree){
     for(num = 660000; num < 666000; ++num){
         addStock(pStkTree, num);
     }
+
+    for(num = 800000; num < 850000; ++num){
+        addStock(pStkTree, num);
+    }
 }
 
 void testSearch(StockTree *pStkTree){
@@ -117,14 +121,14 @@ int main()
     testAdd(pStkTree);
 
     GetLocalTime( &sys ); 
-    printf( "%02d.%03d   [%d]\n", sys.wSecond,sys.wMilliseconds); 
+    printf( "%02d.%03d\n", sys.wSecond, sys.wMilliseconds); 
 
     testSearch(pStkTree);
     testSearch(pStkTree);
     testSearch(pStkTree);
 
     GetLocalTime( &sys ); 
-    printf( "%02d.%03d   [%d]\n", sys.wSecond,sys.wMilliseconds); 
+    printf( "%02d.%03d\n", sys.wSecond, sys.wMilliseconds); 
 
     cout << "stock:" << pStkTree->GetStockCounter() << " , note: " << pStkTree->GetNoteCounter() 
         << ", search: " << pStkTree->GetSearchCounter() << endl;
