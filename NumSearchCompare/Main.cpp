@@ -21,10 +21,6 @@ void test(int count)
 
     p = (DataItem *)malloc(sizeof(DataItem) * count);
 
-    //for(int i = 1; i <= count; ++i){
-    //    cout << (p + i)->id;
-    //}
-
     memset(p, 0, sizeof(DataItem) * count);
 
     for(int i = 0; i < count; ++i){
@@ -39,7 +35,7 @@ void test(int count)
     }
     QueryPerformanceCounter(&nEndTime);
     time=(double)(nEndTime.QuadPart - nBeginTime.QuadPart)/(double)nFreq.QuadPart;
-    printf("BinarySearch:Add:%d:[%.7f]\n", count, time);
+    printf("BinarySearch:Add:%d:[%.7f]  [pre=%.7f]\n", count, time * 1000000, time * 1000000/count);
 
 
     QueryPerformanceCounter(&nBeginTime);
@@ -48,7 +44,7 @@ void test(int count)
     }
     QueryPerformanceCounter(&nEndTime);
     time=(double)(nEndTime.QuadPart - nBeginTime.QuadPart)/(double)nFreq.QuadPart;
-    printf("HashSearch:Add:%d:[%.7f] coll=%d\n", count, time, CollCounter);
+    printf("HashSearch:Add:%d:[%.7f]  [pre=%.7f] coll=%d\n", count, time * 1000000, time * 1000000/count, CollCounter);
 
 
     QueryPerformanceCounter(&nBeginTime);
@@ -58,7 +54,7 @@ void test(int count)
     }
     QueryPerformanceCounter(&nEndTime);
     time=(double)(nEndTime.QuadPart - nBeginTime.QuadPart)/(double)nFreq.QuadPart;
-    printf("BinarySearch:Get:%d:[%.7f]\n", count, time);
+    printf("BinarySearch:Get:%d:[%.7f]  [pre=%.7f]\n", count, time * 1000000, time * 1000000/count);
 
     QueryPerformanceCounter(&nBeginTime);
     for(int i = 1; i <= count; ++i){
@@ -67,7 +63,8 @@ void test(int count)
     }
     QueryPerformanceCounter(&nEndTime);
     time=(double)(nEndTime.QuadPart - nBeginTime.QuadPart)/(double)nFreq.QuadPart;
-    printf("HashSearch:Get:%d:[%.7f] coll=%d\n", count, time, CollCounter);
+    printf("HashSearch:Get:%d:[%.7f]  [pre=%.7f] coll=%d, raio=%.4f\n", count, time * 1000000, time * 1000000/count, 
+        CollCounter, CollCounter * 100.0/count);
 
 
     free(p);

@@ -6,7 +6,7 @@
 DataItem **GDataItemList_H = 0;
 int GDataItemCapacity_H = 0;
 int GDataItemCounter_H = 0;
-const int ITEMCOUNTBUFF_H = 1000;
+const int ITEMCOUNTBUFF_H = 100000;
 int CollCounter = 0;
 
 
