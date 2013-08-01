@@ -21,12 +21,30 @@
     <ClCompile Include="sdj2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fnv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="murmurhash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="djb2.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="sdbm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fnv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="murmurhash.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

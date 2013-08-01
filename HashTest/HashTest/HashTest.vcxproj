@@ -75,7 +75,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="crc32.cpp" />
+    <ClCompile Include="fnv.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="murmurhash.cpp" />
     <ClCompile Include="sdj2.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -84,7 +87,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="crc32.h" />
     <ClInclude Include="djb2.h" />
+    <ClInclude Include="fnv.h" />
+    <ClInclude Include="murmurhash.h" />
     <ClInclude Include="sdbm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
