@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <windows.h>
-#include <vld.h>
+
 #include "BinarySearch.h"
 #include "HashSearchFva.h"
 #include "Base.h"
